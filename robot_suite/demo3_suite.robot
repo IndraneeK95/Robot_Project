@@ -15,3 +15,7 @@ TC1
 TC2
     Create Directory   ${/}Indranee123${/}Documents${/}My_folder
     Create File        ${/}Indranee123${/}Documents${/}My_folder${/}.notes.txt     Indranee
+    Copy File    ${/}Indranee123${/}Documents${/}My_folder${/}.notes.txt    ${/}Indranee123${/}Documents${/}notes.txt
+    Sleep    5s
+    Remove File    ${/}Indranee123${/}Documents${/}My_folder${/}.notes.txt 
+    Remove Directory    ${/}Indranee123${/}Documents${/}My_folder

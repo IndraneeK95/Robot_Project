@@ -1,56 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.9.9 on linux)" generated="20220314 10:06:29.171" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.3 (Python 3.9.9 on linux)" generated="20220314 10:41:42.959" rpa="false" schemaversion="2">
 <suite id="s1" name="Demo3 Suite" source="/home/Indranee123/home/Indranee123/Documents/Robotframework/Robot_project/robot_suite/demo3_suite.robot">
 <test id="s1-t1" name="TC1">
 <kw name="Log To Console" library="BuiltIn">
 <arg>/home/Indranee123/home/Indranee123/Documents/Robotframework/Robot_project/robot_suite</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220314 10:06:29.197" endtime="20220314 10:06:29.197"/>
+<status status="PASS" starttime="20220314 10:41:42.986" endtime="20220314 10:41:42.987"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${EXECDIR}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220314 10:06:29.198" endtime="20220314 10:06:29.198"/>
+<status status="PASS" starttime="20220314 10:41:42.987" endtime="20220314 10:41:42.987"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${OUTPUT_DIR}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220314 10:06:29.198" endtime="20220314 10:06:29.198"/>
+<status status="PASS" starttime="20220314 10:41:42.987" endtime="20220314 10:41:42.988"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${TEMPDIR}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220314 10:06:29.198" endtime="20220314 10:06:29.199"/>
+<status status="PASS" starttime="20220314 10:41:42.988" endtime="20220314 10:41:42.988"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${TEST_NAME}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220314 10:06:29.199" endtime="20220314 10:06:29.199"/>
+<status status="PASS" starttime="20220314 10:41:42.988" endtime="20220314 10:41:42.988"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${SUITE_NAME}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220314 10:06:29.199" endtime="20220314 10:06:29.199"/>
+<status status="PASS" starttime="20220314 10:41:42.988" endtime="20220314 10:41:42.989"/>
 </kw>
-<status status="PASS" starttime="20220314 10:06:29.197" endtime="20220314 10:06:29.199"/>
+<status status="PASS" starttime="20220314 10:41:42.986" endtime="20220314 10:41:42.989"/>
 </test>
 <test id="s1-t2" name="TC2">
 <kw name="Create Directory" library="OperatingSystem">
 <arg>${/}Indranee123${/}Documents${/}My_folder</arg>
 <doc>Creates the specified directory.</doc>
-<msg timestamp="20220314 10:06:29.201" level="INFO" html="true">Directory '&lt;a href="file:///Indranee123/Documents/My_folder"&gt;/Indranee123/Documents/My_folder&lt;/a&gt;' already exists.</msg>
-<status status="PASS" starttime="20220314 10:06:29.200" endtime="20220314 10:06:29.201"/>
+<msg timestamp="20220314 10:41:42.990" level="INFO" html="true">Directory '&lt;a href="file:///Indranee123/Documents/My_folder"&gt;/Indranee123/Documents/My_folder&lt;/a&gt;' already exists.</msg>
+<status status="PASS" starttime="20220314 10:41:42.990" endtime="20220314 10:41:42.990"/>
 </kw>
 <kw name="Create File" library="OperatingSystem">
 <arg>${/}Indranee123${/}Documents${/}My_folder${/}.notes.txt</arg>
 <arg>Indranee</arg>
 <doc>Creates a file with the given content and encoding.</doc>
-<msg timestamp="20220314 10:06:29.201" level="INFO" html="true">Created file '&lt;a href="file:///Indranee123/Documents/My_folder/.notes.txt"&gt;/Indranee123/Documents/My_folder/.notes.txt&lt;/a&gt;'.</msg>
-<status status="PASS" starttime="20220314 10:06:29.201" endtime="20220314 10:06:29.201"/>
+<msg timestamp="20220314 10:41:42.990" level="INFO" html="true">Created file '&lt;a href="file:///Indranee123/Documents/My_folder/.notes.txt"&gt;/Indranee123/Documents/My_folder/.notes.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20220314 10:41:42.990" endtime="20220314 10:41:42.990"/>
 </kw>
-<status status="PASS" starttime="20220314 10:06:29.200" endtime="20220314 10:06:29.201"/>
+<kw name="Copy File" library="OperatingSystem">
+<arg>${/}Indranee123${/}Documents${/}My_folder${/}.notes.txt</arg>
+<arg>${/}Indranee123${/}Documents${/}notes.txt</arg>
+<doc>Copies the source file into the destination.</doc>
+<msg timestamp="20220314 10:41:42.991" level="INFO" html="true">Copied file from '&lt;a href="file:///Indranee123/Documents/My_folder/.notes.txt"&gt;/Indranee123/Documents/My_folder/.notes.txt&lt;/a&gt;' to '&lt;a href="file:///Indranee123/Documents/notes.txt"&gt;/Indranee123/Documents/notes.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20220314 10:41:42.991" endtime="20220314 10:41:42.991"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220314 10:41:47.992" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220314 10:41:42.992" endtime="20220314 10:41:47.992"/>
+</kw>
+<kw name="Remove File" library="OperatingSystem">
+<arg>${/}Indranee123${/}Documents${/}My_folder${/}.notes.txt</arg>
+<doc>Removes a file with the given path.</doc>
+<msg timestamp="20220314 10:41:47.993" level="INFO" html="true">Removed file '&lt;a href="file:///Indranee123/Documents/My_folder/.notes.txt"&gt;/Indranee123/Documents/My_folder/.notes.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20220314 10:41:47.992" endtime="20220314 10:41:47.993"/>
+</kw>
+<kw name="Remove Directory" library="OperatingSystem">
+<arg>${/}Indranee123${/}Documents${/}My_folder</arg>
+<doc>Removes the directory pointed to by the given ``path``.</doc>
+<msg timestamp="20220314 10:41:47.993" level="INFO" html="true">Listing contents of directory '&lt;a href="file:///Indranee123/Documents/My_folder"&gt;/Indranee123/Documents/My_folder&lt;/a&gt;'.</msg>
+<msg timestamp="20220314 10:41:47.993" level="INFO" html="true">Directory '&lt;a href="file:///Indranee123/Documents/My_folder"&gt;/Indranee123/Documents/My_folder&lt;/a&gt;' is empty.</msg>
+<msg timestamp="20220314 10:41:47.993" level="INFO" html="true">Removed directory '&lt;a href="file:///Indranee123/Documents/My_folder"&gt;/Indranee123/Documents/My_folder&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20220314 10:41:47.993" endtime="20220314 10:41:47.993"/>
+</kw>
+<status status="PASS" starttime="20220314 10:41:42.989" endtime="20220314 10:41:47.994"/>
 </test>
-<status status="PASS" starttime="20220314 10:06:29.172" endtime="20220314 10:06:29.202"/>
+<status status="PASS" starttime="20220314 10:41:42.960" endtime="20220314 10:41:47.994"/>
 </suite>
 <statistics>
 <total>
