@@ -8,7 +8,7 @@ Library         SeleniumLibrary
 TC1
     #Append To Environment Variable  Path   ${EXECDIR}${/}driver
     Log To Console    ${EXECDIR}${/}driver
-    Open Browser       browser=firefox  executable_path=/home/Indranee123/home/Indranee123/Documents/Robotframework/Robot_project/driver/geckodriver-v0.30.0-linux64 (1)/geckodriver    options=add_argument("--remote-debugging-port=9222");add_argument("--disable-dev-shm-using");binary_location="/usr/bin/firefox"
+    Open Browser       browser=chrome  executable_path=${EXECDIR}${/}driver${/}chromedriver
     Maximize Browser Window
     Set Selenium Implicit Wait    20s
     Input Text    id=txtUsername    Admin
@@ -18,7 +18,22 @@ TC1
     Click Element    id=welcome
     Click Element    link=logout
 
+TC2
+    Log To Console    ${EXECDIR}${/}driver
+    Open Browser       browser=chrome  executable_path=${EXECDIR}${/}driver${/}chromedriver
+    Set Selenium Implicit Wait    20s
+    Maximize Browser Window
+    Input Text    id=txtUsername  admin123
+    Input Password    id=txtPassword    admin123
+    Click Button    id=btnLogin
+    Click Element    link=My Info
+    Click Element    Link=Emergency Contacts
+    Click Element    class id=btnAddContact
+    Input Text    xpath=//*[@id-'emgcontacts_name']   sat
+    Input Text    id=emgcontacts_relationship    Brother
+    Input Text    id=emgcontacts_homePage   78988
+    Click Button   id=btnSaveEContact
 
-    #/home/Indranee123/Downloads/chromedriver_linux64 (2).zipls
+
 
 
