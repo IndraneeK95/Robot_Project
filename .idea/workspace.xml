@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da39237-7459-47be-aa82-f95f7a3de530" name="Changes" comment="commited">
+      <change afterPath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/robot_suite/demo3_suite.robot" afterDir="false" />
       <change beforePath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/robot_suite/demo2_suite.robot" beforeDir="false" afterPath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/robot_suite/demo2_suite.robot" afterDir="false" />
+      <change beforePath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/log.html" beforeDir="false" afterPath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/log.html" afterDir="false" />
+      <change beforePath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/output.xml" beforeDir="false" afterPath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/output.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/report.html" beforeDir="false" afterPath="$USER_HOME$/home/Indranee123/Documents/Robotframework/Robot_project/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,7 +46,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646996644796</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commited">
+      <created>1646998414576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646998414576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commited">
+      <created>1646998581816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646998581816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
