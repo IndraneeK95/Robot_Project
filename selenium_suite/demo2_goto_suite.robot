@@ -13,3 +13,6 @@ TC1
     Input Text    xpath=//input[@data-sc-field-name='firstName']    Indranee
     Input Text    xpath=//input[@data-sc-field-name='lastName']    Kashyap
     Input Text    xpath=//input[@data-sc-field-name='email']    kashyapindranee25@gmail.com
+    Select From List By Label    xpath=//select[@data-sc-field-name='employees']    10-99
+    Click Element    xpath=//input[@type='submit']
+    [Teardown]      Close Browse
